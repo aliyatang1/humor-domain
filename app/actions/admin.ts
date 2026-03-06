@@ -1,6 +1,6 @@
 "use server";
 
-import { requireSuperadmin, createSupabaseServerClient } from "@/lib/supabase/client";
+import { requireSuperadmin, createSupabaseServerClient } from "@/lib/supabase/server";
 
 // Dashboard Stats
 export async function getAdminDashboardStats() {

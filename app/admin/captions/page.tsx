@@ -300,7 +300,7 @@ export default function CaptionsPage() {
                         <button
                           onClick={() => {
                             setEditingId(caption.id);
-                            setEditData({ content: caption.content });
+                            setEditData({ content: caption.content ?? undefined });
                           }}
                           className="text-blue-600 hover:text-blue-700 font-medium"
                         >
